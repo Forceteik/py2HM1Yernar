@@ -1,0 +1,81 @@
+:root {
+    --color-1: #FFFFFF;
+    --color-2: #339966;
+    --color-3: #33CC99;
+    --color-4: #A1000E;
+}
+input.form-control:focus {
+background: #fff !important;
+}
+h1 {
+    text-decoration: underline;
+}
+body {
+    background-image: url(https://img5.goodfon.ru/original/3000x2000/7/28/tsvety-konvert-zagotovka-shablon-otkrytka.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    background-color: var(--color-3);
+}
+.card {
+    background-color: var(--color-1);
+    border: 0;
+}
+.titles {
+    margin: 80px 0;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-2);
+}
+.title2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: var(--color-3);
+}
+.container2, .list-group-item {
+    background-color: var(--color-2);
+    border: 0;
+}
+.container2 {
+    padding:50px;
+}
+.input-group-text {
+    border: 0;
+    border-radius: 0 15px 15px 0;
+}
+.form-control {
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    border-radius:  15px 0 0 15px;
+}
+.form-control:focus, .btn-check:focus+.btn, .btn:focus {
+    color: var(--color-2);
+    background-color: var(--color-3);
+    outline: 0;
+    box-shadow: none;
+}
+.list-group-item:last-child {
+border-radius: 0px;
+}
+.lgi1 {
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin: 20px 10px;
+    border-radius: 0px;
+    font-size: large;
+    padding-left: 45px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.fa-times-circle {
+    color: var(--color-4);
+}
